@@ -1,0 +1,78 @@
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+.env/
+
+# --- Python compiled files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_metrics/
+*/.ipynb_checkpoints/*
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.marscode/
+.marscode.*
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+*.dmg
+*.app
+.~lock.*
+~$*
+
+# --- Sensitive data (personal info, keys) ---
+*.key
+*.pem
+*.crt
+*.cert
+.env
+*.env.local
+*.env.*
+config.yaml
+secrets.*
+
+# --- Data files that may contain personal info ---
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+!data/*.md
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# --- Logs ---
+*.log
+
+# --- Notebook outputs (can contain data) ---
+notebooks/*.nbconvert.ipynb
+
+# --- Git history backup ---
+*.orig
+
+# --- Personal / named versions (not for public repo) ---
+30-DAY-ROADMAP-DANSON.*
+30-DAY-ROADMAP-WINFRED.*
+FOR-DANSON.*
+FOR-WINFRED.*
+
+# --- Project specific ---
+projects/*/data/
+projects/*/__pycache__/
