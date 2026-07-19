@@ -8,6 +8,7 @@ dependencies = [
     "duckdb>=1.5.4",
     "jupyterlab>=4.6.1",
     "matplotlib>=3.11.0",
+    "numpy>=2.5.1",
     "pandas>=3.0.3",
     "seaborn>=0.13.2",
     "sqlalchemy>=2.0.51",
